@@ -264,7 +264,7 @@ body{
     background: linear-gradient(92.68deg, #2F2F2F 20.01%, #1B6FBB 100.64%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 62px;
+    margin-bottom: 113px;
 }
 .text__img {
     margin-bottom: 125px;
@@ -301,7 +301,7 @@ body{
     letter-spacing: -0.015em;  
 }
 .advantages-block__items {
-    justify-content: flex-end;
+    justify-content:center;
     max-width: 864px;
     display: flex;
     flex-wrap: wrap;
@@ -357,12 +357,62 @@ body{
     box-sizing: border-box;
     position: absolute;
     left: -112px;
-    top: 95px;
+    top: 134px;
 }
 .text__img::after{
     content: url(img/advantage/Ellipse\ 11.png);
     box-sizing: border-box;
     position: absolute;
     left: -77px;
-    top: 90px;
+    top: 134px;
+}
+.page__office-block {
+}
+._office-block {
+}
+.office-block__container {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+
+}
+.office-block__img {
+}
+.office__img {
+}
+.office-block__text {
+}
+._text {
+    margin-top: 149px;
+
+}
+.office-text__title {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    background: linear-gradient(92.68deg, #2F2F2F 20.01%, #1B6FBB 100.64%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    width: 770px;
+    height: 216px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+
+}
+.office-text_text {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.015em;
+    color: #2F2F2F;
+    width: 531px;
+    height: 216px;
 }
