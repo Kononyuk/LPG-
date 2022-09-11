@@ -1,0 +1,368 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+il,
+ol,
+li{
+    list-style: none;
+}
+img{
+    vertical-align: top;
+}
+html,
+body{
+    height: 100%;
+    line-height: 1;
+}
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    
+}
+._container{
+    max-width: 1657px;
+    margin: 0px auto;
+    box-sizing: content-box;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 110px;
+    padding-bottom: 0 ;
+}
+
+._ibg{
+    position: relative;
+}
+._ibg img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+/* ____________________ШАПКА______________________ */
+.header {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 50;
+}
+.header__container {
+    display: flex;
+    min-height: 63px;
+    align-items: center;
+}
+.header__menu {
+    margin: 0 0 0 553px;
+}
+.menu__list {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+.menu__items {
+    margin: 0px 60px 0px 0px;
+}
+.menu__link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+.header__button{
+    display: inline-flex;
+}
+.button {
+    border: 1px solid #13497A;
+    border-radius: 50px;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #13497A;
+}
+/* _____________________Page_________________ */
+.page{
+    flex: 1 1 auto;
+}
+._main-block {
+    position: relative;
+    max-height: 960px;
+    margin-bottom: 110px;
+
+}
+.main-block__container {
+    display: flex;
+    position: relative;
+    z-index: 2;
+    padding: 122px 0 122px 0;    
+}
+.main-block__body {
+    padding: 167px 0 167px 0 ;
+    position: relative;
+    z-index: 2;
+    max-width: 941px;
+}
+.main-block__body >*:not(:last-child) {
+    margin: 0 0 55px 0;
+}
+.main-block__title {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 76px;
+    line-height: 89px;
+    background: linear-gradient(92.68deg, #2F2F2F 20.01%, #1B6FBB 100.64%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;  
+}
+.main-block__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    letter-spacing: -0.015em;
+    color: #6B7680;
+    max-width: 700px;
+}
+.main-block__buttons{
+    display: inline-flex;
+}
+.main-block__button {
+    background: #13497A;
+    border-radius: 50px;
+    display: flex;
+    min-height: 56px;
+    justify-content: center;
+    align-items: center;
+    max-width: 386px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #F3EEEA;
+}
+.main-block__image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+}
+/* ______________________уСЛУГИ_______________________ */
+
+.block__title {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    background: linear-gradient(92.68deg, #2F2F2F 20.01%, #1B6FBB 100.64%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: block;
+}
+.block__text {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    background: linear-gradient(92.68deg, #2F2F2F 20.01%, #1B6FBB 100.64%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: block;
+    text-align: right;
+}
+.services-block__body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+
+}
+.body__items {
+    width: 526px;
+    height: 425px;
+    padding: 0 15px;
+    flex: 0 1 33.333%;
+
+    
+}
+.body__item-title {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.015em;
+    color: #2F2F2F;
+}
+.body__item-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+    color: #6B7680;
+    max-width: 466px;
+    
+}
+/* ______________________Преимущества_______________________ */
+
+._advantages-block {
+    
+}
+.advantages-block__container {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    
+
+
+    
+}
+
+.advantages-block__text {
+    max-width: 864px;
+}
+.text__title {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.015em;
+    background: linear-gradient(92.68deg, #2F2F2F 20.01%, #1B6FBB 100.64%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 62px;
+}
+.text__img {
+    margin-bottom: 125px;
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    /* or 150% */
+    
+    letter-spacing: -0.015em;
+    
+    /* dark */
+    
+    color: #2F2F2F;
+    max-width: 763px;
+    margin-right: 155px;
+}
+.text_img::before{
+    position: absolute;
+  left: 50px;
+  top: 50px;
+  width: 100px;
+  height: 100px;
+    background-image: url(img/advantage/1.png);
+}
+.text__text {
+    max-width: 703px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.015em;  
+}
+.advantages-block__items {
+    justify-content: flex-end;
+    max-width: 864px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -111px 0 0;
+
+}
+.advantages-block__item {
+    width: 305px;
+    width: 291px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 5px;
+    margin: 0 111px 0 0;
+    flex: 0 1 33.333%;
+}
+.item__img {
+ 
+}
+.item__title {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+    
+    letter-spacing: -0.015em;
+    
+    /* dark */
+    
+    color: #2F2F2F;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.item__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;    
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #6B7680;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.text__img::before{
+    content: url(img/advantage/Ellipse\ 10.png);
+    box-sizing: border-box;
+    position: absolute;
+    left: -112px;
+    top: 95px;
+}
+.text__img::after{
+    content: url(img/advantage/Ellipse\ 11.png);
+    box-sizing: border-box;
+    position: absolute;
+    left: -77px;
+    top: 90px;
+}
